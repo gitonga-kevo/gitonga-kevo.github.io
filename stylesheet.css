@@ -1,0 +1,87 @@
+body{
+	background-color: white;
+	margin: 0px;
+	font-family: verdana,georgia,serif;
+	font-size: 14px;
+}
+
+#header {
+	margin: 10px;
+	height: 90px;
+	background: linear-gradient(#ffc90e,#ff9c0e);
+	border-radius: 10px 50px 10px 10px;
+	box-shadow: 5px 5px 10px #3c2f00;
+
+	}
+.nav{
+	margin-top: 25px;
+}
+
+.group{
+	margin-top: 100px;
+	float: left;
+}
+
+
+
+.mybutton{
+	padding: 10px 20px;
+	border-radius: 100px;
+	font-weight: bold;
+	background: #a84422;
+	box-shadow: 0px 3px 8px #5f2b1a;
+	color: #ffbd0a;
+	outline: none;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: background linear 0.3s;
+
+}
+
+.mybutton:hover{
+	background-color: #411;
+
+}
+
+.button{
+	padding: 10px 20px;
+	border-radius: 100px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #ffbd0a;
+	outline: none;
+	text-decoration: none;
+	margin-left: 15px;
+	transition: color linear 0.3s;
+	display: block;
+	width: auto;
+}
+.button:hover{
+	color: red;
+}
+.container{
+	width: 320px;
+	float: left;
+	display:inline;
+	margin: 3px;
+	margin-left: 100px;
+}
+
+.container:hover{
+	margin: 0px;
+	margin-left: 100px;
+	width: 323px;
+	box-shadow: 5px 5px 10px #3c2f00;
+}
+
+.vids{
+	width: 100%;
+	height: auto;
+}
+
+
+.desc{
+	text-align: center;
+
+	
+}
